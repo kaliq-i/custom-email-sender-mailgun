@@ -1,0 +1,16 @@
+{
+  "name": "custom-sender-email-mailgun",
+  "version": "1.0.0",
+  "description": "Custom Sender Email Lambda Trigger for AWS Cognito",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-crypto/client-node": "^3.0.3",
+    "base64-js": "^1.5.1",
+    "mailgun-js": "^0.22.0"
+  }
+}
